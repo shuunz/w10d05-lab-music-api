@@ -3,7 +3,12 @@ Rails.application.routes.draw do
   resources :artists do 
     resources :albums, shallow: true 
   end 
+  resources :albums do 
+    resources :songs, shallow: true 
+  end 
+
 
   get "/albums", to: "albums#index"
+  get "/songs", to: "songs#index"
   # resources :albums, only: [:index]
 end
