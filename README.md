@@ -4,7 +4,7 @@ This morning we set up an api for Artists and their Albums. Your job now is to a
 
 In this directory you are given the app we made this morning, as well as some new seeds. 
 
-Your song model should have a `title`, a `durration`, and belong to an `album`.
+Your song model should have a `title`, a `duration`, and belong to an `album`.
 
 > **HINT:** How do we generate our Song model so it relates to our Album? What do we need to add to our models so they relate?
 
